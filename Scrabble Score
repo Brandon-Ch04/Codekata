@@ -11,6 +11,8 @@ def scrabble_score(st):
     total = 0
     if st.islower() == True:
         st = st.upper()
+    else:
+        st = st.upper()
     
     for letter in st:
         
